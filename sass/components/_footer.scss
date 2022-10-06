@@ -39,6 +39,11 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+.address-link:hover,
+.address-link:focus {
+    fill: var(--nav-color);
+    color: var(--nav-color);
+}
 
 .footer-social {
     display: flex;
