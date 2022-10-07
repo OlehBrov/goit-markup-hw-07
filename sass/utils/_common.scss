@@ -19,14 +19,18 @@ ul {
     padding: 0 15px;
     margin: 0 auto;
 
-    &__header {
-    @include font (36px, 1.17);
-    font-weight: 700;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--main-text-color);
-    margin-bottom: 50px; }
+ 
 }
+.container__header {
+  font-size: 36px;
+  line-height: 1.17;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+  margin-bottom: 50px;
+}
+
 .list {
     list-style: none;
 }
