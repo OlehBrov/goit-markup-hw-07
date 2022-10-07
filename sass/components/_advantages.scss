@@ -32,9 +32,8 @@
 }
 
 .advantages__title {
+  @include font (14px, 1.1);
   font-weight: 700;
-  font-size: 14px;
-  line-height: 1.1;
   text-transform: uppercase;
   color: var(--main-text-color);
   margin-top: 30px;
@@ -42,8 +41,7 @@
 }
 
 .advantages__text {
-  font-size: 14px;
-  line-height: 1.7;
+  @include font (14px, 1.7);
   color: var(--advantages-paragraph);
   letter-spacing: 0.03em;
 }

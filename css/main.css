@@ -150,9 +150,9 @@ ul {
 }
 
 .booking__header {
-  font-weight: 700;
   font-size: 20px;
   line-height: 1.1;
+  font-weight: 700;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
@@ -216,14 +216,14 @@ ul {
 }
 
 .booking__comment__input {
-  resize: none;
-  height: 120px;
-  padding: 12px 16px;
-  margin-top: 4px;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
   color: var(--main-text-color);
+  resize: none;
+  height: 120px;
+  padding: 12px 16px;
+  margin-top: 4px;
 }
 
 .booking__comment__input::placeholder {
@@ -308,16 +308,16 @@ ul {
 
 .booking__btn {
   display: block;
-  margin: 0 auto;
-  padding: 10px 52px;
+  font-size: 16px;
+  line-height: 1.88;
+  font-weight: 700;
+  color: var(--white-text);
   background: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
-  color: var(--white-text);
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
+  margin: 0 auto;
+  padding: 10px 52px;
   cursor: pointer;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -358,10 +358,10 @@ ul {
 }
 
 .navigation__link {
-  color: var(--main-text-color);
   font-size: 14px;
-  font-weight: 500;
   line-height: 1.1;
+  font-weight: 500;
+  color: var(--main-text-color);
   display: block;
   padding: 28px 0;
   transition-property: color;
@@ -409,12 +409,12 @@ ul {
 }
 
 .logo {
+  font-size: 26px;
+  line-height: 1.2;
   display: block;
   margin-right: 93px;
   font-family: "Raleway", sans-serif;
-  font-size: 26px;
   font-weight: 700;
-  line-height: 1.2;
   color: var(--nav-color);
 }
 
@@ -428,26 +428,26 @@ ul {
 }
 
 .hero__header {
+  font-size: 44px;
+  line-height: 1.3;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  color: var(--white-text);
+  text-transform: uppercase;
   text-align: center;
   margin: 0 auto;
   margin-bottom: 30px;
   max-width: 696px;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.3;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--white-text);
   -webkit-text-stroke: 1px #000000;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .hero__btn {
-  font-family: inherit;
-  font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
+  font-weight: 700;
   letter-spacing: 0.06em;
+  font-family: inherit;
   text-align: center;
   color: var(--white-text);
   background-color: var(--nav-color);
@@ -509,9 +509,9 @@ ul {
 }
 
 .advantages__title {
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.1;
+  font-weight: 700;
   text-transform: uppercase;
   color: var(--main-text-color);
   margin-top: 30px;
@@ -552,9 +552,9 @@ ul {
 }
 
 .activities__products {
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  font-weight: 700;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-align: center;
@@ -595,9 +595,9 @@ ul {
 }
 
 .member__name {
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
+  font-weight: 500;
   letter-spacing: 0.03em;
   margin-bottom: 5px;
   flex-wrap: wrap;
@@ -745,8 +745,8 @@ PORTFOLIO PAGE
 .filter__btn {
   font-family: inherit;
   font-size: 16px;
-  font-weight: 500;
   line-height: 1.6;
+  font-weight: 500;
   color: var(--main-text-color);
   background: var(--team-section-style);
   border-radius: 4px;
@@ -822,8 +822,8 @@ PORTFOLIO PAGE
 
 .products__item__title {
   font-size: 18px;
-  font-weight: 700;
   line-height: 2;
+  font-weight: 700;
   letter-spacing: 0.06em;
   color: var(--main-text-color);
   margin-bottom: 2px;
@@ -851,12 +851,12 @@ PORTFOLIO PAGE
 
 .submit__btn {
   display: flex;
-  background-color: var(--nav-color);
-  color: var(--white-text);
-  font-style: normal;
-  font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
+  font-weight: 700;
+  font-style: normal;
+  color: var(--white-text);
+  background-color: var(--nav-color);
   border: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;

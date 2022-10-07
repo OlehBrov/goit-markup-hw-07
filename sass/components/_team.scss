@@ -26,17 +26,15 @@
 }
 
 .member__name {
+  @include font (16px, 1.2);
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.2;
   letter-spacing: 0.03em;
   margin-bottom: 5px;
   flex-wrap: wrap;
 }
 
 .member__position {
-  font-size: 16px;
-  line-height: 1.2;
+  @include font (16px, 1.2);
   letter-spacing: 0.03em;
   color: var(--advantages-paragraph);
   margin-top: 5px;

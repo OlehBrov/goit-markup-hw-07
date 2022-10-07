@@ -20,9 +20,8 @@ ul {
     margin: 0 auto;
 
     &__header {
+    @include font (36px, 1.17);
     font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--main-text-color);

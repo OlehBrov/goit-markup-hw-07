@@ -13,13 +13,12 @@
 .submit__btn {
   display: flex;
 
-  background-color: var(--nav-color);
-  color: var(--white-text);
-  font-style: normal;
+  @include font (16px, 1.88);
   font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-
+  font-style: normal;
+  color: var(--white-text);
+  background-color: var(--nav-color);
+  
   border: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;

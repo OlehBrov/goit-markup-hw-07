@@ -71,9 +71,8 @@
 }
 
 .booking__header {
+  @include font (20px, 1.1);
   font-weight: 700;
-  font-size: 20px;
-  line-height: 1.1;
   text-align: center;
   letter-spacing: 0.03em;
 
@@ -95,12 +94,12 @@
 }
 
 .data__input {
+  @include font (16px, 1.17);
   display: block;
   padding: 12px 42px;
   width: 100%;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-  font-size: 16px;
   cursor: pointer;
   outline: none;
 
@@ -113,10 +112,8 @@
 
 .booking__data {
   display: block;
-  font-size: 12px;
-  line-height: 1.17;
+  @include font (12px, 1.17);
   letter-spacing: 0.01em;
-
   color: var(--contacts-color);
 }
 
@@ -141,20 +138,19 @@
 }
 
 .booking__comment__input {
+  @include font (12px, 1.17);
+  letter-spacing: 0.01em;
+  color: var(--main-text-color);
+  
   resize: none;
   height: 120px;
   padding: 12px 16px;
   margin-top: 4px;
-
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.01em;
-  color: var(--main-text-color);
+  
 }
 
 .booking__comment__input::placeholder {
-  font-size: 12px;
-  line-height: 1.17;
+  @include font (12px, 1.17);
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
@@ -166,8 +162,7 @@
 
 .license__agreement {
   display: inline;
-  font-size: 14px;
-  line-height: 1.71;
+  @include font (14px, 1.71);
   letter-spacing: 0.03em;
 
   color: var(--contacts-color);
@@ -221,8 +216,7 @@
 
 .license__link {
   position: relative;
-  font-size: 14px;
-  line-height: 1.71;
+  @include font (14px, 1.71);
   letter-spacing: 0.03em;
   color: var(--nav-color);
 }
@@ -239,16 +233,17 @@
 
 .booking__btn {
   display: block;
-  margin: 0 auto;
-  padding: 10px 52px;
+  @include font (16px, 1.88);
+  font-weight: 700;
+  color: var(--white-text);
+  
   background: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
-  color: var(--white-text);
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
+
+  margin: 0 auto;
+  padding: 10px 52px;
   cursor: pointer;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }

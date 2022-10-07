@@ -4,8 +4,7 @@
 }
 
 .activities__header {
-  font-size: 36px;
-  line-height: 1.2;
+  @include font (36px, 1.2);
   text-align: center;
   margin-bottom: 50px;
   display: block;
@@ -25,9 +24,8 @@
 }
 
 .activities__products {
+  @include font (14px, 1.14);
   font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
