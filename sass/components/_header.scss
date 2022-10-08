@@ -1,21 +1,10 @@
-/* Header */
 .header {
   background-color: var(--white-text);
   border-bottom: 1px solid #ececec;
 
-    &-container {
+    &__container {
     display: flex;
   }
-
-    &-logo {
-    padding-top: 24px;
-  }
-
-    &-studio-word {
-    line-height: 1.2;
-    color: var(--black);
-  }
-  
 }
 
 .navigation__list {
@@ -35,8 +24,7 @@
   font-weight: 500;
   color: var(--main-text-color);
   display: block;
-  padding: 28px 0;
-
+    
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -63,15 +51,19 @@
     transform: translate(-50%, 0%);
 
   }
+  &--header {
+    padding: 28px 0;
+  }
 }
 
 
-
-.contact {
+.header__contacts {
   margin-left: auto;
   align-items: baseline;
   padding-top: 24px;
+}
 
+.contact {
   &__icon {
     margin-right: 10px;
   }

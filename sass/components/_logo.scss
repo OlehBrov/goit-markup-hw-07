@@ -6,4 +6,15 @@
     font-family: var(--logo-font);
     font-weight: 700;
     color: var(--nav-color);
+
+            
 }
+.header__logo {
+ padding-top: 24px;
+
+ &--wordpart {
+    line-height: 1.2;
+    color: var(--black);
+    }
+}
+ 

@@ -16,26 +16,26 @@
 
 <body>
   <header class="header">
-    <div class="container header-container">
-      <div class="header-logo">
-        <a href="./index.html" class="link logo">Web<span class="header-studio-word">Studio</span></a>
+    <div class="container header__container">
+      <div class="logo__container">
+        <a href="./index.html" class="link logo header__logo">Web<span class="header__logo--wordpart">Studio</span></a>
       </div>
 
       <nav class="navigation">
         <ul class="list navigation__list">
           <li class="navigation__item">
-            <a href="./index.html" class="link navigation__link navigation__link--active">Студія </a>
+            <a href="./index.html" class="link navigation__link navigation__link--header navigation__link--active">Студія </a>
           </li>
           <li class="navigation__item">
-            <a href="./portfolio.html" class="link navigation__link">Портфоліо</a>
+            <a href="./portfolio.html" class="link navigation__link navigation__link--header">Портфоліо</a>
           </li>
           <li class="navigation__item">
-            <a href="#" class="link navigation__link">Контакти</a>
+            <a href="#" class="link navigation__link navigation__link--header">Контакти</a>
           </li>
         </ul>
       </nav>
 
-      <ul class="list navigation__list contact">
+      <ul class="list navigation__list contact header__contacts">
         <li class="navigation__item">
           <a href="mailto:info@devstudio.com" class="link contact__link">
             <svg class="contact__icon" width="16px" height="12px">
@@ -455,8 +455,8 @@
   <div class="backdrop is-hidden" data-modal>
     <div class="modal">
 
-      <button type="button" class="modal__btn" data-modal-close>
-        <svg class="modal__close" width="18px" height="18px">
+      <button type="button" class="modal__btn--close" data-modal-close>
+        <svg class="icon__close" width="18px" height="18px">
           <use href="./images/icons/symbol-defs.svg#icon-close"></use>
         </svg>
       </button>
@@ -521,7 +521,7 @@
             <a href="#" class="license__link link">Умови договору</a>
           </div>
 
-          <button type="button" class="btn form-btn">Відправити</button>
+          <button type="button" class="btn modal__btn">Відправити</button>
         </form>
       </div>
     </div>
