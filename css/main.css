@@ -86,7 +86,6 @@ ul {
   background-color: var(--nav-color);
 }
 
-/* MODAL window */
 .backdrop {
   position: fixed;
   top: 0;
@@ -116,7 +115,7 @@ ul {
   border-radius: 4px;
 }
 
-.modal__btn--close {
+.modal__btn__close {
   display: flex;
   position: absolute;
   width: 30px;
@@ -311,13 +310,13 @@ ul {
 }
 
 .modal__btn {
-  display: block;
+  display: flex;
   font-size: 16px;
   line-height: 1.88;
   font-weight: 700;
   color: var(--white-text);
   background: #188ce8;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 4px;
   border-radius: 4px;
   border: none;
   margin: 0 auto;
