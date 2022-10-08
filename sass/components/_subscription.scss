@@ -11,8 +11,7 @@
 }
 
 .submit__btn {
-  display: flex;
-
+  @include button__flex__center;
   @include font (16px, 1.88);
   font-weight: 700;
   font-style: normal;
@@ -29,7 +28,7 @@
 
   cursor: pointer;
 
-  align-items: center;
+  
 
   scale: (1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);

@@ -3,3 +3,9 @@
     line-height: $lh;
 
 }
+
+@mixin button__flex__center () {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

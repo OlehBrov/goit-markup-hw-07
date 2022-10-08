@@ -12,6 +12,7 @@ PORTFOLIO PAGE
 }
 
 .filter__btn {
+  @include button__flex__center;
   font-family: inherit;
   @include font (16px, 1.6);
   font-weight: 500;
@@ -22,8 +23,7 @@ PORTFOLIO PAGE
   border: none;
 
   padding: 6px 22px;
-  display: block;
-
+ 
   transition-property: background-color, color, filter;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
