@@ -1,13 +1,5 @@
-/* What we do section */
 .activities {
   padding-bottom: 94px;
-}
-
-.activities__header {
-  @include font (36px, 1.2);
-  text-align: center;
-  margin-bottom: 50px;
-  display: block;
 }
 
 .activities__list {

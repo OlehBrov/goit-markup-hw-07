@@ -1,4 +1,3 @@
-/* ADVANTAGES SECTION */
 .advantages {
   padding: 94px 0;
 }
@@ -36,10 +35,12 @@
   font-weight: 700;
   text-transform: uppercase;
   color: var(--main-text-color);
+
+}
+.advantages__title--header {
   margin-top: 30px;
   margin-bottom: 10px;
 }
-
 .advantages__text {
   @include font (14px, 1.7);
   color: var(--advantages-paragraph);
