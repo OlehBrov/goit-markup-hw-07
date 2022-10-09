@@ -244,8 +244,11 @@
   padding: 10px 52px;
   cursor: pointer;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.modal__btn:active {
+  &:active {
   transform: translateY(4px);
 }
+
+
+}
+
