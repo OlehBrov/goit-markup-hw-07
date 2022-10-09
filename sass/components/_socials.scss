@@ -16,10 +16,11 @@
     transition-property: background-color, fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        fill: var(--white-text);
+        background-color: var(--nav-color);
+    }
 }
 
-.social__link:hover,
-.social__link:focus {
-    fill: var(--white-text);
-    background-color: var(--nav-color);
-}

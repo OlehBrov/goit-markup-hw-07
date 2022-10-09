@@ -29,11 +29,12 @@
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.address__link:hover,
-.address__link:focus {
+
+  &:hover,
+  &:focus {
   fill: var(--nav-color);
   color: var(--nav-color);
+  }
 }
 
 .footer__social__list {

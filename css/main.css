@@ -116,7 +116,6 @@ ul {
   cursor: pointer;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .icon__close:hover {
   transform: scale(1.2);
   fill: var(--nav-color);
@@ -161,9 +160,11 @@ ul {
   outline: none;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .data__input:focus {
-  border: 1px solid #2196f3;
+  border: 1px solid var(--nav-color);
+}
+.data__input:focus + .data__input__icon {
+  fill: var(--nav-color);
 }
 
 .booking__data {
@@ -184,10 +185,6 @@ ul {
   margin: 0;
   transform: translate(0, -50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.data__input:focus + .data__input__icon {
-  fill: var(--nav-color);
 }
 
 .booking__comment {
@@ -274,7 +271,6 @@ ul {
   letter-spacing: 0.03em;
   color: var(--nav-color);
 }
-
 .license__link::after {
   content: "";
   position: absolute;
@@ -441,12 +437,9 @@ ul {
   scale: 1;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.hero__btn:hover,
-.hero__btn:focus {
+.hero__btn:hover, .hero__btn:focus {
   transform: scale(1.1);
 }
-
 .hero__btn:active {
   background-color: var(--nav-color);
   box-shadow: 0 5px #666;
@@ -604,9 +597,7 @@ ul {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.social__link:hover,
-.social__link:focus {
+.social__link:hover, .social__link:focus {
   fill: var(--white-text);
   background-color: var(--nav-color);
 }
@@ -643,15 +634,13 @@ ul {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+.clients__link:hover, .clients__link:focus {
+  fill: var(--nav-color);
+  border: 1px solid var(--nav-color);
+}
 
 .clients__item:not(:last-child) {
   margin-right: 30px;
-}
-
-.clients__link:hover,
-.clients__link:focus {
-  fill: #2196f3;
-  border: 1px solid #2196f3;
 }
 
 .footer__container {
@@ -684,9 +673,7 @@ ul {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.address__link:hover,
-.address__link:focus {
+.address__link:hover, .address__link:focus {
   fill: var(--nav-color);
   color: var(--nav-color);
 }
@@ -752,17 +739,15 @@ ul {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
 }
-
-.filter__item:not(:last-child) {
-  margin-right: 8px;
-}
-
-.filter__btn:hover,
-.filter__btn:focus {
+.filter__btn:hover, .filter__btn:focus {
   background-color: var(--nav-color);
   color: var(--white-text);
   border: none;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.filter__item:not(:last-child) {
+  margin-right: 8px;
 }
 
 .products__list {
@@ -782,14 +767,10 @@ ul {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.products__card:hover,
-.products__card:focus {
+.products__card:hover, .products__card:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-
-.products__card:hover .products__overlay,
-.products__card:focus .products__overlay {
+.products__card:hover .products__overlay, .products__card:focus .products__overlay {
   transform: translateY(-100%);
 }
 
@@ -862,7 +843,6 @@ ul {
   scale: 1;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .submit__btn::after {
   content: "";
   display: block;
@@ -872,9 +852,7 @@ ul {
   fill: var(--white-text);
   margin-left: 10px;
 }
-
-.submit__btn:hover,
-.submit__btn:focus {
+.submit__btn:hover, .submit__btn:focus {
   transform: scale(1.1);
 }
 
@@ -889,13 +867,10 @@ ul {
   caret-color: var(--nav-color);
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.subscribe__input:hover,
-.subscribe__input:focus {
+.subscribe__input:hover, .subscribe__input:focus {
   outline: transparent;
   border: 1px solid var(--nav-color);
 }
-
 .subscribe__input:not(:placeholder-shown) {
   border: 1px solid var(--nav-color);
 }

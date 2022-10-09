@@ -11,12 +11,12 @@
 
 .submit__btn {
   @include button__flex__center;
-  @include font (16px, 1.88);
+  @include font(16px, 1.88);
   font-weight: 700;
   font-style: normal;
   color: var(--white-text);
   background-color: var(--nav-color);
-  
+
   border: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -24,23 +24,23 @@
   cursor: pointer;
   scale: (1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.submit__btn::after {
-  content: "";
-  display: block;
-  width: 24px;
-  height: 24px;
+  &::after {
+    content: "";
+    display: block;
+    width: 24px;
+    height: 24px;
 
-  background-image: url(../images/icon-send.svg);
-  fill: var(--white-text);
+    background-image: url(../images/icon-send.svg);
+    fill: var(--white-text);
 
-  margin-left: 10px;
-}
+    margin-left: 10px;
+  }
 
-.submit__btn:hover,
-.submit__btn:focus {
-  transform: scale(1.1);
+  &:hover,
+  &:focus {
+    transform: scale(1.1);
+  }
 }
 
 .subscribe__input {
@@ -55,17 +55,17 @@
   caret-color: var(--nav-color);
 
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    outline: transparent;
+    border: 1px solid var(--nav-color);
+  }
+  &:not(:placeholder-shown) {
+    border: 1px solid var(--nav-color);
+  }
 }
 
-.subscribe__input:hover,
-.subscribe__input:focus {
-  outline: transparent;
-  border: 1px solid var(--nav-color);
-}
-
-.subscribe__input:not(:placeholder-shown) {
-  border: 1px solid var(--nav-color);
-}
-.subscribe__input--field{
-margin-right: 12px;
+.subscribe__input--field {
+  margin-right: 12px;
 }
